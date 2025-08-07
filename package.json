@@ -1,0 +1,42 @@
+{
+  "name": "nodejs-express",
+  "version": "1.0.0",
+  "description": "learn",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect --legacy-watch src/index.js",
+    "watch": "sass src/resources/scss/app.scss src/public/css/app.css --watch --no-source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanhTin-be/learn-nodejs-express.git"
+  },
+  "keywords": [
+    "learn",
+    "learn",
+    "nodejs",
+    "learn",
+    "express",
+    "learn",
+    "nodejs",
+    "express",
+    "nodejs",
+    "express"
+  ],
+  "author": "thanhtin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThanhTin-be/learn-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/ThanhTin-be/learn-nodejs-express#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10",
+    "sass": "^1.90.0"
+  }
+}
